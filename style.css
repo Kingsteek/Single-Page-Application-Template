@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;800&display=swap');
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: 'Epilogue';
+  }
+  
+  header {
+	background-color: #FFFFFF;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+  }
+  
+  nav {
+	float: left;
+	width: 10%;
+	background: #E5E4E2;
+	padding: 20px;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	padding: 0px;
+  }
+  
+  article {
+	float: left;
+	padding: 40px;
+	width: 90%;
+	background-color: #f1f1f1;
+	
+  }
+  
+
+  section::after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+
+  footer {
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: white;
+  }
+  
+  @media (max-width: 600px) {
+	nav, article {
+	  width: 100%;
+	  height: auto;
+	}
+  }
